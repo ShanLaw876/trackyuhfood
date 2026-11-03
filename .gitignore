@@ -147,3 +147,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# TrackYuhFood local configuration and generated files
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
+*.log
